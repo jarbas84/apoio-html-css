@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Trebuche MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+h2{
+	text-align: center;
+}
+#container{
+	width: 85%;
+	margin: 0 auto;
+	background: #fff;
+}
+#marca{
+	height: 100px;
+	background: #9e9e9e;
+	text-align: center;
+	line-height: 100px;
+}
+#conteudo{
+	width: 74%;
+	float:right;
+}
+#navegacao{
+	width: 25%;
+	float: left;
+	padding: 20px 0px 20px 0px;
+	background: #d1d1d1;
+}
+#rodape{
+	clear: both;
+	background:#c4c4c4;
+	padding: 5px;
+}
+#navegacao ul{
+	list-style: none;
+	margin: auto 20px; 
+}
+#navegacao li a{
+	text-decoration: none;
+}
+#conteudo p{
+	text-align: justify;
+	padding: 5px;
+}
+#conteudo-direita{
+	background: #d1d1d1;
+	width: 40%;
+	float: right;
+}
+#conteudo-centro{
+	width: 60%;
+	float: left;
+}

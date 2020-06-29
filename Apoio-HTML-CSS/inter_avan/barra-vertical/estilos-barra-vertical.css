@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#home #ul-barra-vertical .home a{
+
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+#sobre #ul-barra-vertical .sobre a{
+
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+#servicos #ul-barra-vertical .servicos a{
+
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+#noticias #ul-barra-vertical .noticias a{
+
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+#contatos #ul-barra-vertical .contatos a{
+
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+#barra-lateral{
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 400px;
+}
+#ul-barra-vertical{
+list-style-type: none;
+}
+
+h2{
+	margin: 20px 10px;
+
+}
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	background: #f7b600 url("imagens/menu.png") no-repeat left bottom;
+	text-indent: 40px;
+	line-height: 40px;
+
+}
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+
+}
+
+/* seletor arcaico, porém funcional
+
+a:hover, .selecionado a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+
+}
+

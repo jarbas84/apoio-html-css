@@ -1,0 +1,62 @@
+/*zerando as margens da página*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#barra-principal{
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 400px;
+}
+ul#ul-barra-horizontal{
+list-style-type: none;
+width: 720px;
+height:  40px;
+background: #159cb0 url("imagens/fundo-horizontal.png") repeat-x;
+float: left;
+}
+ul#ul-barra-horizontal li{
+	float: left;
+}
+h2{
+	margin: 20px auto;
+	text-align: center;
+}
+ul a{
+	text-decoration: none;
+	display: block;
+	padding: 0 2em;
+	line-height: 2.5em;
+	color: #fff;
+	background: url("imagens/divisor.png") repeat-y left top;
+}
+ul a:hover{
+	color: #085662;
+	background: #44cade; 
+	
+}
+/* para tirar divisor do primeiro link*/
+ul .primeiro a{
+	background: none;
+}
+/*deixar link da página já marcado (opcional)*/
+#home #ul-barra-horizontal .home{
+	color: #085662;
+	background: #44cade; 
+}
+#sobre #ul-barra-horizontal .sobre{
+	color: #085662;
+	background: #44cade; 
+}
+#servicos #ul-barra-horizontal .servicos{
+	color: #085662;
+	background: #44cade; 
+}
+#noticias #ul-barra-horizontal .noticias{
+	color: #085662;
+	background: #44cade; 
+}
+#contatos #ul-barra-horizontal .contatos{
+	color: #085662;
+	background: #44cade; 
+}

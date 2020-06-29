@@ -1,0 +1,56 @@
+*{
+	margin 0;
+	padding 0;
+}
+body{
+	font-family: "Trebuche MS", helvetica, sans-serif;
+}
+ul{
+	list-style: none;
+	width: 720px;
+}
+ul li{
+	float: left;
+	background: url(imagens/aba-direita.png) no-repeat top right;
+}
+li a{
+	display: block;
+	color: white;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background:url("imagens/aba-esquerda.png") no-repeat top left;
+}
+ul a:hover {
+	color: #894a1f;
+}
+#ul-home .li-abas{
+	background:url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+#ul-home .li-abas a{
+	background:url(imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+#ul-sobre .li-abas{
+	background:url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+#ul-sobre .li-abas a{
+	background:url(imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+#ul-servicos .li-abas{
+	background:url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+#ul-servicos .li-abas a{
+	background:url(imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+#ul-noticias .li-abas{
+	background:url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+#ul-noticias .li-abas a{
+	background:url(imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+#ul-contatos .li-abas{
+	background:url(imagens/aba-direita-atual.png) no-repeat top right;
+}
+#ul-contatos .li-abas a{
+	background:url(imagens/aba-esquerda-atual.png) no-repeat top left;
+}
